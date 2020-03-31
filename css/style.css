@@ -25,7 +25,7 @@
 .reg a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 .reg a:hover {
     text-decoration: underline;
@@ -35,6 +35,11 @@ h1{
     text-align: center;
     color: white;
     font-family: sans-serif;
+    font-size: 52px;
+}
+p.butt {
+    display: flex;
+    justify-content: center;
 }
 header .butt a{
     float: left;
@@ -46,14 +51,15 @@ header .butt a{
     padding-left: 1%;
     padding-right: 1%;
     background-color: #ffd500;
-    margin-left: 42%;
+    font-family: sans-serif;
+    font-size: 32px;
     margin-top: 3%;
 }
 .it{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 2%;
-    font-size: 25px;
+    font-size: 32px;
     color: white;
     font-family: sans-serif;
 }
@@ -324,8 +330,9 @@ span{
     font-size: 18px;
     }
     
-    
+   
 }
+
 @media(min-width: 481px) and (max-width:899px){
 
     .main_why_it_bigbox_container_textbox_content{
@@ -875,3 +882,17 @@ section2{
     
 }
 }
+ @media (min-width: 0px) and (max-width: 768px){
+        .main_one_imgbox_img {
+    width: 91%;
+    margin-left: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+     .main_one_textbox_text {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 70%;
+}
+    }
